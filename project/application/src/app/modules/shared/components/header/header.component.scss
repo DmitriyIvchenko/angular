@@ -1,0 +1,36 @@
+.header {
+    background-color: #e64545;
+    height: 750px;
+    width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    position: relative;
+    overflow: hidden;
+z-index: 1;
+}
+
+.header_background_left {                                                                                                                                                                                                                                                                                                                                                                                                                   
+    background: url("/assets/images/header-left.svg") no-repeat;
+    width: 850px;
+    height: 850px; 
+    position: absolute;
+    top: -130px;
+    left: -294px;
+    z-index: -1;
+    background-size: contain;
+}
+
+.header_background_right {                                                                                                                                                                                                                                                                                                                                                                                                                   
+    background: url("/assets/images/header-right.svg") no-repeat;
+    width: 520px;
+    height: 520px;
+    position: absolute;
+    bottom: 0;
+    right: -180px;
+    z-index: -1;
+    background-size: contain;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
