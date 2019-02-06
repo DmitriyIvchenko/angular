@@ -8,8 +8,8 @@
             <li class="header__menu_items_item"><a class="link" href="http://www.google.com">CONTACT US</a></li>
         </ul>
     </div>
-    <a class="link" href="http://www.google.com">
-        <div class="header_text_join_up">Join Up</div>
+    <a class="link" (click)="toggleParam()">
+        <div class="header_text_join_up" [ngClass]="{'header_text_join_up--active': isOpen}">Join Up</div>
     </a>
     <div class="header_text">
         <div class="header_text_top">Join the colors.</div>
@@ -19,16 +19,58 @@
     <div class="main_text">
         <div class="main_text_1">There are only 3 colors, 1 0 digits </div>
         <div class="main_text_2">
-            <p>To make the text match the perspective of the book, we first need to convert itTo make the text match
-                the
-                perspective of the book, we first need to </p>
-            <p>into a Smart Object. Right Click on your Text Layer and select Convert to Smart OTo make the text match
-                the
-                perspective of the book, we first need to </p>
-            <p> bject. If you would like to edit you text after it has already been converted toTo make the text match
-                the
-                perspective of the book, we first need to </p>
+            <p>To make the text match the perspective of the book, we first need to
+                convert itTo make the text match the perspective of the book, we first
+                need to into a Smart Object. Right Click on your Text Layer and select
+                Convert to Smart OTo make the text match the perspective of the book, we
+                first need to bject. If you would like to edit you text after it has
+                already been converted toTo make the text match the perspective of
+                the book, we first need to
+            </p>
+            <ul class="color_list">
+                <li class="color_list_item orange"></li>
+                <li class="color_list_item red"></li>
+                <li class="color_list_item green"></li>
+                <li class="color_list_item black"></li>
+                <li class="color_list_item pink"></li>
+            </ul>
         </div>
+
+        <ul class="header_boxes">
+            <li class="header_boxes_text black_1">
+                <p class="volume_text_first">SEO Optimzed</p>
+                <div class="icon_volume_text_first"></div>
+                <p> Возможность нахождения поисковых ключей в тек
+                    их количества полезна как для написания новог
+                    для оптимизации уже существующего. Расположен
+                    по группам и по частоте сделает навигацию по
+                </p>
+                <div class="plus1"><a class="plus" href="http://www.google.com"></a></div>
+            </li>
+            <li class="header_boxes_text red_2">
+                    <p class="volume_text_second">Responsive</p>
+                    <div class="icon_volume_text_second"></div>
+                <p> Возможность нахождения поисковых ключей в тек
+                    их количества полезна как для написания новог
+                    для оптимизации уже существующего. Расположен
+                    по группам и по частоте сделает навигацию по
+                </p>
+                <div class="plus2"><a class="plus" href="http://www.google.com"></a></div>
+            </li>
+            <li class="header_boxes_text green_3">
+                    <p class="volume_text_third">Cloud Services</p>
+                    <div class="icon_volume_text_third"></div>
+                <p> Возможность нахождения поисковых ключей в тек
+                    их количества полезна как для написания новог
+                    для оптимизации уже существующего. Расположен
+                    по группам и по частоте сделает навигацию по
+                </p>
+                <div class="plus3"><a class="plus" href="http://www.google.com"></a></div>
+            </li>
+        </ul>
+
+
+
     </div>
 
 </header>
