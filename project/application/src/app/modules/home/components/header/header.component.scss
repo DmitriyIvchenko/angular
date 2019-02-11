@@ -1,0 +1,120 @@
+.header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 960px;
+}
+.header:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 960px;
+    background: url(/assets/images/bg-header.jpg) no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_items {
+    display: flex;
+    flex-direction: row;
+    color: #DCDCDC;
+    justify-content: center;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_items_item {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.registration {
+    display: flex;
+    flex-direction: row;
+    color: #DCDCDC;
+    height: 70px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+   
+}
+
+.registration_user {
+    margin: 0 10px;
+}
+
+.text_decoration1 {
+    text-decoration: none;
+    color: #DCDCDC;
+    
+}
+.main_text {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+.main_text_button {
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    color: #DCDCDC;
+    margin-bottom: 50px;
+}
+.knopka {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    padding: 9px 50px;
+    border: 0;
+    background: #00ad85;
+    border-radius: 3px;
+}
+
+.knopka_decoration {
+    text-decoration: none;
+    color: white;
+}
+.mouse_icon {
+    background: url(/assets/images/mouse.svg) no-repeat;
+    width: 34px;
+    height: 49px;
+    bottom: 0;
+    left: 686px;
+    position: absolute;
+}
+  
+.classa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 100%;
+    width: 100%;
+}
+
+.classb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
