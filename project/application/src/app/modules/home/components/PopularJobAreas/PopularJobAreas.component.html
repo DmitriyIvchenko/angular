@@ -1,0 +1,17 @@
+<div class="PopularJobAreas">
+    <div class="main_text">Popular Job Areas</div>
+    <div class="items"></div>
+    <div class="icons">
+        <ul class="icons_item">
+            <li class="icon" *ngFor="let elementMasiva of masiv">
+                <app-homepage-Some [param]="elementMasiva.param" [image]="elementMasiva.image" [text]="elementMasiva.text"></app-homepage-Some>
+            </li>
+        </ul>
+    </div>
+    <div class="button">
+        <a class="button1" href="https://www.google.com">
+            <div class="button12">View More</div>
+        </a>
+    </div>
+</div>
+

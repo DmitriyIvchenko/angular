@@ -1,0 +1,21 @@
+<div class="icon"
+ (mouseenter)="mouseenter()" 
+ (mouseleave)="mouseleave()" 
+ [ngClass]="{'nesentered': centeredItems}">
+    <img class="icon1" [src]="image" alt="">
+    <p>{{ text }}</p>
+    <div class="isactive" *ngIf="isActive">
+        <div class='text'
+            [ngClass]="{
+                'text-1': param === 'param1',
+                'text-2': param === 'param2',
+                'text-3': param === 'param3',
+                'text-4': param === 'param4',
+                'text-5': param === 'param5',
+                'text-6': param === 'param6',
+                'text-7': param === 'param7',
+                'text-8': param === 'param8'
+            }"
+        >{{ text }}</div>
+    </div>
+</div>

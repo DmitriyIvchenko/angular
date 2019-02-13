@@ -5,12 +5,15 @@ import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './home.component';
 
 import {
-    HeaderComponent
+    HeaderComponent,
+    PopularJobAreasComponent,
+    SomeComponent
 } from './components'
+
 
 @NgModule({
     imports: [HomeRoutingModule, SharedModule],
-    declarations: [HomeComponent, HeaderComponent],
-    providers: [HeaderComponent]
+    declarations: [HomeComponent, HeaderComponent, PopularJobAreasComponent, SomeComponent],
+    providers: [HeaderComponent, PopularJobAreasComponent, SomeComponent]
 })
 export class HomeModule {}
