@@ -7,13 +7,16 @@ import { HomeComponent } from './home.component';
 import {
     HeaderComponent,
     PopularJobAreasComponent,
-    SomeComponent
+    SomeComponent,
+    BodyComponent,
+    HowItWorksComponent,
+    TestimonialsComponent 
 } from './components'
 
 
 @NgModule({
     imports: [HomeRoutingModule, SharedModule],
-    declarations: [HomeComponent, HeaderComponent, PopularJobAreasComponent, SomeComponent],
-    providers: [HeaderComponent, PopularJobAreasComponent, SomeComponent]
+    declarations: [HomeComponent, HeaderComponent, PopularJobAreasComponent, SomeComponent, BodyComponent,HowItWorksComponent,TestimonialsComponent  ],
+    providers: [HeaderComponent, PopularJobAreasComponent, SomeComponent, BodyComponent, HowItWorksComponent,TestimonialsComponent  ]
 })
 export class HomeModule {}

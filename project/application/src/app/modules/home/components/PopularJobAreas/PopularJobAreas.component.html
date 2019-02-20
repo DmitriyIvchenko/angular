@@ -2,9 +2,22 @@
     <div class="main_text">Popular Job Areas</div>
     <div class="items"></div>
     <div class="icons">
-        <ul class="icons_item">
+        <ul class="icons_item"  >
             <li class="icon" *ngFor="let elementMasiva of masiv">
-                <app-homepage-Some [param]="elementMasiva.param" [image]="elementMasiva.image" [text]="elementMasiva.text"></app-homepage-Some>
+                <app-homepage-Some 
+                [param]="elementMasiva.param" 
+                [image]="elementMasiva.image" 
+                [text]="elementMasiva.text"
+                [text1]="elementMasiva.text1"
+                [text2]="elementMasiva.text2"
+                [text3]="elementMasiva.text3"
+                [text4]="elementMasiva.text4"
+                [text5]="elementMasiva.text5"
+                [text6]="elementMasiva.text6"
+                [text7]="elementMasiva.text7"
+                [text8]="elementMasiva.text8"
+                [button22]="elementMasiva.button22">
+            </app-homepage-Some>
             </li>
         </ul>
     </div>

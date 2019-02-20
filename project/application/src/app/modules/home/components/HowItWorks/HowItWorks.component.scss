@@ -1,0 +1,109 @@
+.HowItWorks {
+    width: 100%;
+    height: 618px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.main-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #545861;
+    margin-top: 60px;
+}
+
+.items-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 132px;
+    text-align: -webkit-center;
+    margin-left: -139px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.icon1 {
+    background: url(/assets/images/file-color.svg) no-repeat;
+    width: 77px;
+    height: 67px;
+}
+
+.icon2 {
+    background: url(/assets/images/human-resources.svg) no-repeat;
+    width: 77px;
+    height: 67px;
+}
+
+.icon3 {
+    background: url(/assets/images/viral-marketing-color.svg) no-repeat;
+    width: 77px;
+    height: 67px;
+}
+
+.icon4 {
+    background: url(/assets/images/coins.svg) no-repeat;
+    width: 77px;
+    height: 67px;
+}
+
+.icons-text-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #4b4e56;
+    font-size: 18px;
+    padding-bottom: 17px;
+    position: relative;
+    &:before {
+        content: "";
+    border-bottom: 2px solid #00ad85;
+    position: absolute;
+    bottom: 0;
+    width: 61px;
+    }
+}
+
+.items-items-items {
+    margin-left: 170px;
+}
+
+.arrow-dotted {
+    background: url(/assets/images/arrow-right-dotted.svg) no-repeat;
+    width: 83px;
+    height: 23px;
+    position: absolute;
+    margin-left: 133px;
+    margin-top: -41px;
+}
+
+.text-button {
+    margin-right: 25px;
+    position: relative;
+    top: 161px;
+    left: 63px;
+    margin-left: -108px;
+    color: #545861;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}

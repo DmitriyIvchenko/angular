@@ -10,7 +10,19 @@ export class SomeComponent implements OnInit, OnDestroy {
     @Input() image = '';
     @Input() text = '';
     @Input() param = '';
+    @Input() text1 = '';
+    @Input() text2 = '';
+    @Input() text3 = '';
+    @Input() text4 = '';
+    @Input() text5 = '';
+    @Input() text6 = '';
+    @Input() text7 = '';
+    @Input() text8 = '';
+    @Input() button22 = '';
+
+
     public isActive = false;
+    
 
     constructor(
     ) {}

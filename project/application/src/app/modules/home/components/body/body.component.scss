@@ -1,0 +1,140 @@
+.body {
+    width: 100%;
+    height: 620px;
+    background: url(/assets/images/features-background.svg);
+    overflow: hidden;
+    background-color: #191970;
+    opacity: 1;
+}
+
+.main_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 92%;
+
+}
+
+.menu1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    font-size: 22px;
+
+
+}
+
+.block1 {
+    width: 50%;
+    margin-left: 101px;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.check1 {
+    background: url(/assets/images/checked-green.svg) no-repeat;
+    width: 57px;
+}
+
+.check {
+    display: flex;
+    flex-direction: column;
+    margin-top: -190px;
+}
+
+
+
+
+.image_border_fixed {
+    background: url("/assets/images/money.svg") no-repeat;
+    width: 49px;
+    height: 50px;
+}
+
+.image_border_houle {
+    background: url("/assets/images/time-is-money.svg") no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+
+.content {
+    display: flex;
+    margin: 100px 0 0 0;
+}
+
+.inner {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+
+    .mybutton {
+        width: 424px;
+        height: 150px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+
+        &__image-time {
+            background: url("/assets/images/time-is-money.svg") no-repeat;
+            width: 49px;
+            height: 50px;
+            margin: 0 20px;
+        }
+
+        &__image-money {
+            background: url("/assets/images/money.svg") no-repeat;
+            width: 49px;
+            height: 50px;
+            margin: 0 20px;
+        }
+
+        &__text {
+            margin-left: 6px;
+            border-left: 1px #ffffff4f solid;
+            line-height: 68px;
+            padding-left: 71px;
+        }
+
+        &__label {
+            position: absolute;
+            background-color: #14151421;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(-90deg);
+            right: -61px;
+            width: 152px;
+
+            &_inner {
+                font-size: 18px;
+                letter-spacing: 6px;
+                padding: 7px;
+            }
+        }
+    }
+
+    .green {
+        background-color: #00ad85;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    .blue {
+        background-color: #12a6cb;
+        border-radius: 5px;
+    }
+}
